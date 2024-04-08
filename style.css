@@ -1,0 +1,295 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 9px;
+
+}
+
+header {
+    background-color: #538dd7;
+    display: flex;
+}
+
+#text-web {
+    text-decoration: none;
+    color: #ffffffd4;
+    padding: 15px 10px;
+    /*        top right buttom left  */
+}
+
+#text-dash {
+    text-decoration: none;
+    color: #ffffffb3;
+    font-size: 12px;
+    padding: 17px 0 0 115px;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 12px 0px 0px 950px;
+}
+
+nav ul li a {
+
+    /* float: right; */
+    /* right: 15px; */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff76;
+    padding-right: 15px;
+}
+
+/* --------main------------- */
+.containers {
+    display: flex;
+    
+}
+
+.col1 {
+    background-color: #fff;
+    width: 300px;
+    height: 100%;
+    padding: 15px 15px 15px 0px;
+}
+
+/* ---- 1st para-------- */
+.col1 p:nth-child(1) {
+    font-size: 15px;
+    color: #000000b3;
+    padding: 15px 15px 15px 0px;
+}
+
+.col1 p:nth-child(1):hover {
+    font-size: 15px;
+    color: #fff;
+    background-color: #ff4e80;
+    cursor: pointer;
+}
+
+/* ---- 2nd para----- */
+.col1 p:nth-child(3) {
+    font-size: 15.5px;
+    color: #000000b3;
+    padding: 15px 15px 15px 0px;
+}
+
+.col1 p:nth-child(3):hover {
+    font-size: 15px;
+    color: #fff;
+    background-color: #ff4e80;
+    cursor: pointer;
+}
+
+.col1 ul li {
+    /* list-style-position: inherit; */
+    list-style-type: none;
+    font-size: 14px;
+    padding: 15px 15px 15px 0px;
+    color: #000000b3;
+}
+
+/* ---- 3th para--- */
+.col1 p:nth-child(6) {
+    font-size: 15px;
+    color: #000000b3;
+    padding: 15px 15px 15px 0px;
+    /* padding: 15px 5px; */
+}
+
+.col1 p:nth-child(6):hover {
+    font-size: 15px;
+    color: #fff;
+    background-color: #ff4e80;
+    cursor: pointer;
+}
+
+.col1 ol li {
+    list-style-type: none;
+    font-size: 14px;
+    padding: 10px 0px 10px 0px;
+    color: #000000b3;
+}
+
+
+
+
+
+/* -----coloum second--------- */
+
+
+
+.col2 {
+
+    background-color: #3699df;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.col2 p {
+    color: #fff;
+    font-size: xx-large;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 120px;
+    /* margin-right: 120px; */
+
+}
+.card1 {
+    background-color: #80cafc;
+    width: 250px;
+    height: 400px;
+
+    /* box-shadow: 0px 0px 4px 2px rgba(38, 39, 38, 1); */
+    border: 2px solid #6180a1;
+}
+.card1 .heading-text{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: large;
+    padding: bottom left;
+    padding: 70px 0px 0px 10px;
+}
+.del-text{
+    width: 92%;
+    height: 200px;
+    color: #000000aa;
+    background-color: #ffffff;
+    font-size: small;
+    padding: 20px 10px 0 10px;
+    line-height: 20px;
+
+    /* padding: 70px 0px 0px 10px; */
+}
+.last-text{
+    border-top:1px solid #000000aa;
+    /* margin-top: 155px; */
+    color: #3699df;
+    font-weight: bold;
+    padding: 20px 20px 22px 15px;
+    background-color: #fff;
+}
+
+
+/* ---- card2------ */
+.card2 {
+    background-color: #f5c058;
+    width: 250px;
+    height: 400px;
+    
+  
+    /* box-shadow: 0px 0px 4px 2px rgba(38, 39, 38, 1); */
+    border: 2px solid #6180a1;
+}
+.card2 .heading-text2{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: large;
+    padding: bottom left;
+    padding: 70px 0px 0px 10px;
+}
+.del-text2{
+    width: 92%;
+    height: 200px;
+    color: #000000aa;
+    background-color: #ffffff;
+    font-size: small;
+    padding: 20px 10px 0 10px;
+    line-height: 20px;
+    
+    /* padding: 70px 0px 0px 10px; */
+}
+.last-text2{
+    border-top:1px solid #000000aa;
+    /* margin-top: 155px; */
+    color: #f5c058;
+    font-weight: bold;
+    padding: 20px 20px 22px 15px;
+    background-color: #fff;
+}
+
+/* ---- card3------ */
+.card3 {
+    background-color: #fc8080;
+    width: 250px;
+    height: 400px;
+    
+  
+    /* box-shadow: 0px 0px 4px 2px rgba(38, 39, 38, 1); */
+    border: 2px solid #6180a1;
+}
+.card3 .heading-text3{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: large;
+    padding: bottom left;
+    padding: 70px 0px 0px 10px;
+}
+.del-text3{
+    width: 92%;
+    height: 200px;
+    color: #000000aa;
+    background-color: #ffffff;
+    font-size: small;
+    padding: 20px 10px 0 10px;
+    line-height: 20px;
+    
+    /* padding: 70px 0px 0px 10px; */
+}
+.last-text3{
+    border-top:1px solid #000000aa;
+    /* margin-top: 155px; */
+    color: #fc8080;
+    font-weight: bold;
+    padding: 20px 20px 22px 15px;
+    background-color: #fff;
+}
+
+
+
+
+/* ------ card4 ---- */
+.card4 {
+    background-color: #ce80fc;
+    width: 250px;
+    height: 400px;
+    
+  
+    /* box-shadow: 0px 0px 4px 2px rgba(38, 39, 38, 1); */
+    border: 2px solid #6180a1;
+}
+.card4 .heading-text4{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: large;
+    padding: bottom left;
+    padding: 70px 0px 0px 10px;
+}
+.del-text4{
+    width: 92%;
+    height: 200px;
+    color: #000000aa;
+    background-color: #ffffff;
+    font-size: small;
+    padding: 20px 10px 0 10px;
+    line-height: 20px;
+    
+    /* padding: 70px 0px 0px 10px; */
+}
+.last-text4{
+    border-top:1px solid #000000aa;
+    /* margin-top: 155px; */
+    color: #ce80fc;
+    font-weight: bold;
+    padding: 20px 20px 22px 15px;
+    background-color: #fff;
+}
